@@ -14,7 +14,7 @@ class classwork {
 			owner => railsadmin,
 			group => railsadmin,
 			mode => 600,
-			source => "puppet:///modules/massiveapp/database.yml"
+			source => "puppet:///modules/classwork/database.yml"
 	}
 	package { 
 		"bundler":
