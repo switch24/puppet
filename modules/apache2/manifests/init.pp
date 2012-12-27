@@ -16,8 +16,8 @@ class apache2 {
 			mode => 644,
 			owner => root,
 			group => root;
-		"/etc/apache2/sites-enabled/massiveapp.conf":
-			source => "puppet:///modules/apache2/massiveapp.conf",
+		"/etc/apache2/sites-enabled/classwork.conf":
+			source => "puppet:///modules/apache2/classwork.conf",
 			owner => root,
 			group => root,
 			notify => Service["apache2"],
